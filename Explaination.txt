@@ -8,19 +8,19 @@ The code fetches content from a website, extracts specific information, preproce
 Dependencies:
 - Python 3.x
 - Libraries:
-  - requests
-  - beautifulsoup4
-  - transformers
-  - sentence-transformers
-  - faiss-cpu
-  - pandas
-  - nltk
-  - chromadb
-  - langchain
-  - unstructured
-  - docx2txt
-  - reportlab
-  - genai
+    * beautifulsoup4: For web scraping (HTML parsing).
+    * requests: HTTP library for making requests.
+    * transformers: Library for state-of-the-art Natural Language Processing (NLP).
+    * sentence-transformers: Library for computing sentence embeddings.
+    * faiss-cpu: Efficient similarity search and clustering of dense vectors.
+    * pandas: Data manipulation and analysis library.
+    * nltk: Natural Language Toolkit for NLP tasks.
+    * chromadb: Client library for ChromaDB, a database for storing and querying embeddings.
+    * reportlab: Library for creating PDFs.
+    * langchain: Library for working with language models and data loaders.
+    * unstructured: Library for handling unstructured data.
+    * docx2txt: Converts Microsoft Word documents (DOCX) to plain text.
+    * genai: Library for accessing Generative AI models from GenAI.
 
 Installation Instructions:
 1. Install Python 3.x from https://www.python.org/downloads/.
