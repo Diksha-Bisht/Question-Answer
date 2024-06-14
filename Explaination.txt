@@ -1,4 +1,4 @@
-# Project Name: Question-Answer using LLM (LArge Language Model)
+Project Name: Question-Answer using LLM (LArge Language Model)
 
 
 Description:
@@ -26,20 +26,16 @@ Installation Instructions:
 1. Install Python 3.x from https://www.python.org/downloads/.
 2. Open a terminal or command prompt.
 3. Install the required Python libraries using pip:
-pip install requests beautifulsoup4 transformers sentence-transformers faiss-cpu pandas nltk chromadb langchain unstructured docx2txt reportlab genai
-
-markdown
-Copy code
+    pip install requests beautifulsoup4 transformers sentence-transformers faiss-cpu pandas nltk chromadb langchain unstructured docx2txt reportlab genai
 
 Usage Instructions:
 1. Clone or download the repository from GitHub.
 2. Navigate to the project directory.
 3. Ensure all dependencies are installed (see installation instructions).
-4. Run the Python script `main.py` to execute the code:
-python main.py
+4. Run the Python script main.py to execute the code:
+   
+    python main.py
 
-markdown
-Copy code
 5. Follow the prompts to enter questions and receive answers from the AI model.
 
 Code Explanation:
@@ -51,8 +47,8 @@ Code Explanation:
 - `README.txt`: This file, explaining the project and usage instructions.
 
 Credits:
-- Created by [Your Name].
+- Created by Diksha Bisht.
 - Collaborators: Diksha Bisht, Deepak Garg
 
 Contact:
-For questions or feedback, please contact [Your Email Address].
+For questions or feedback, please contact bishtdiksha096@gmail.com
