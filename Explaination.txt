@@ -1,0 +1,58 @@
+# Project Name: Question-Answer using LLM (LArge Language Model)
+
+
+Description:
+This project demonstrates the usage of various Python libraries and tools to perform web scraping, text preprocessing, PDF generation, and question answering using AI models. 
+The code fetches content from a website, extracts specific information, preprocesses text data, generates a PDF document, and uses an AI model for question answering.
+
+Dependencies:
+- Python 3.x
+- Libraries:
+  - requests
+  - beautifulsoup4
+  - transformers
+  - sentence-transformers
+  - faiss-cpu
+  - pandas
+  - nltk
+  - chromadb
+  - langchain
+  - unstructured
+  - docx2txt
+  - reportlab
+  - genai
+
+Installation Instructions:
+1. Install Python 3.x from https://www.python.org/downloads/.
+2. Open a terminal or command prompt.
+3. Install the required Python libraries using pip:
+pip install requests beautifulsoup4 transformers sentence-transformers faiss-cpu pandas nltk chromadb langchain unstructured docx2txt reportlab genai
+
+markdown
+Copy code
+
+Usage Instructions:
+1. Clone or download the repository from GitHub.
+2. Navigate to the project directory.
+3. Ensure all dependencies are installed (see installation instructions).
+4. Run the Python script `main.py` to execute the code:
+python main.py
+
+markdown
+Copy code
+5. Follow the prompts to enter questions and receive answers from the AI model.
+
+Code Explanation:
+- `main.py`: Entry point of the program, orchestrates the workflow.
+- `scrape.py`: Contains functions for web scraping using requests and BeautifulSoup.
+- `preprocess.py`: Functions for text preprocessing using regex.
+- `generate_pdf.py`: Functions for generating PDF documents using reportlab.
+- `question_answering.py`: Functions for querying an AI model (Gemini) using GenAI.
+- `README.txt`: This file, explaining the project and usage instructions.
+
+Credits:
+- Created by [Your Name].
+- Collaborators: Diksha Bisht, Deepak Garg
+
+Contact:
+For questions or feedback, please contact [Your Email Address].
