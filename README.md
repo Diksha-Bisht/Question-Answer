@@ -43,7 +43,7 @@ pip install -r requirements.txt
 1. Clone the repository:
 ```bash
 git clone https://github.com/Diksha-Bisht/Question-Answer.git
-cd repository
+cd Question-Answer
 ```
 
 2. Install the dependencies as mentioned above.
